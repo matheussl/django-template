@@ -1,3 +1,3 @@
 
-python manage.py test --settings=src.settings.settings_test --verbosity=2
+python manage.py test --settings={{ project_name }}.settings.settings_test --verbosity=2
 
