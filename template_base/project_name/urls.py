@@ -12,8 +12,8 @@ urlpatterns = patterns('',
     # my apps
     
     
-    url(r'^login/$', 'src.app.core.views.site_login', name='login'),
-    url(r'^logout/$', 'src.app.core.views.site_logout', name='logout'),
+    url(r'^login/$', '{{ project_name }}.app.core.views.site_login', name='login'),
+    url(r'^logout/$', '{{ project_name }}.app.core.views.site_logout', name='logout'),
     url(r'^admin/', include(admin.site.urls)),
     url(dajaxice_config.dajaxice_url, include('dajaxice.urls')),
 )

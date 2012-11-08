@@ -22,8 +22,8 @@ STANDARD_SETTINGS = {
     'DB_ROOT_PASSWORD': 'deploypopcode',
     'SRC_DIR': '/srv/popcode/src/{{ project_name }}',
     'PROJECT_PATH': '',
-    'PROJECT_DIR': '/srv/popcode/src/quiz/quizjuridico/{{ project_name }}',
-    'ENV_DIR': '/srv/popcode/envs/quiz',
+    'PROJECT_DIR': '/srv/popcode/src/ PATH TO /{{ project_name }}',
+    'ENV_DIR': '/srv/popcode/envs/{{ project_name }}',
     'CONFIG_TEMPLATES_PATHS': ['{{ project_name }}/config_templates'], # relative
     'REMOTE_CONFIG_TEMPLATE': '{{ project_name }}/settings/settings_local.server.py', # relative
     'LOCAL_CONFIG': '{{ project_name }}/settings/settings_local.py', # relative

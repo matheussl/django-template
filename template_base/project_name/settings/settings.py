@@ -136,7 +136,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         "django.core.context_processors.media",
         "django.core.context_processors.static",
         'django.core.context_processors.request',
-        "src.app.core.views.context_processor",
+        # my context processors
 )
 
 
